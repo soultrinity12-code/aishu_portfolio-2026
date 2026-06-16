@@ -2,14 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=./portfolio/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aishwarya Kunjir - Portfolio</title>
+    <title>Redirecting...</title>
+
     <script>
-        // Redirect to portfolio
-        window.location.href = '/portfolio/';
+        window.location.replace('./portfolio/');
     </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #f5f5f5;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <p>Redirecting to portfolio...</p>
+    <div class="container">
+        <h2>Redirecting to Portfolio...</h2>
+        <p>
+            If you are not redirected automatically,
+            <a href="./portfolio/">click here</a>.
+        </p>
+    </div>
 </body>
 </html>
