@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /index.html
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.php$
+
+# Crawl delay
+Crawl-delay: 1
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://aishwaryakunjir.com/sitemap.xml

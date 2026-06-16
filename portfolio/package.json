@@ -1,0 +1,50 @@
+{
+  "name": "aishwarya-kunjir-portfolio",
+  "version": "1.0.0",
+  "description": "Premium portfolio website for Aishwarya Kunjir - Graphic Designer specializing in social media design, banners, and creative digital content",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "start:php": "php -S localhost:8000",
+    "build": "echo 'Static site - no build needed'",
+    "test": "echo 'Testing portfolio...'",
+    "lint": "eslint assets/js/ && stylelint assets/css/",
+    "minify-css": "cssnano assets/css/style.css -o assets/css/style.min.css",
+    "minify-js": "terser assets/js/script.js -o assets/js/script.min.js"
+  },
+  "keywords": [
+    "portfolio",
+    "graphic-design",
+    "designer",
+    "social-media-design",
+    "creative",
+    "aishwarya-kunjir",
+    "banner-design",
+    "web-design"
+  ],
+  "author": "Aishwarya Kunjir",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aishwaryakunjir/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aishwaryakunjir/portfolio/issues"
+  },
+  "homepage": "https://aishwaryakunjir.com",
+  "devDependencies": {
+    "cssnano": "^5.1.15",
+    "terser": "^5.16.5",
+    "eslint": "^8.40.0",
+    "stylelint": "^15.6.2",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ]
+}
